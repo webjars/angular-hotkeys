@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-hotkeys</artifactId>
-    <version>1.4.0</version>
+    <version>1.4.1-SNAPSHOT</version>
     <name>angular-hotkeys</name>
     <description>WebJar for angular-hotkeys</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/angular-hotkeys</url>
         <connection>scm:git:https://github.com/webjars/angular-hotkeys.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-hotkeys.git</developerConnection>
-        <tag>angular-hotkeys-1.4.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
