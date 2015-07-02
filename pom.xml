@@ -72,7 +72,7 @@
                 <version>1.0-beta-4</version>
                 <executions>
                     <execution>
-                        <id>download-css</id>
+                        <id>download-min-css</id>
                         <phase>process-resources</phase>
                         <goals>
                             <goal>download-single</goal>
@@ -84,7 +84,7 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>download-js</id>
+                        <id>download-min-js</id>
                         <phase>process-resources</phase>
                         <goals>
                             <goal>download-single</goal>
@@ -93,6 +93,30 @@
                             <url>${upstream.url}</url>
                             <fromFile>hotkeys.min.js</fromFile>
                             <toFile>${destDir}/hotkeys.min.js</toFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-css</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>hotkeys.css</fromFile>
+                            <toFile>${destDir}/hotkeys.css</toFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>hotkeys.js</fromFile>
+                            <toFile>${destDir}/hotkeys.js</toFile>
                         </configuration>
                     </execution>
                 </executions>
