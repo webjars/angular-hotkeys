@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-hotkeys</artifactId>
-    <version>1.4.1-SNAPSHOT</version>
+    <version>1.4.5-SNAPSHOT</version>
     <name>angular-hotkeys</name>
     <description>WebJar for angular-hotkeys</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.4.0</upstream.version>
+        <upstream.version>1.4.5</upstream.version>
         <upstream.url>https://raw.github.com/chieffancypants/angular-hotkeys/${upstream.version}/build/</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
